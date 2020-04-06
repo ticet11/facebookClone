@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
-    background-color: #fff;
+    font-family: 'Segoe UI', 'San Francisco', Roboto, sans-serif; 
+    margin:0;
+}
+
+.banner {
+    background-color: #4267B2;
+    color: white;
+}
+
+.banner > .banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner > .banner-wrapper > .login-wrapper {
+    display: flex;
+}
+
+.recents-create-account {
+    background-color: #E9EBEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recents-create-account > .recent-logins-wrapper > .recent-accounts {
+    display: flex;
+}
+
+.recents-create-account > .recent-logins-wrapper > .recent-accounts > .account {
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    width: 160px;
+    margin-right: 20px;
+}
+
+#sign-up-btn {
+    background-color: #5D974A;
+    color: white;
+}
+
+footer {
+    background-color: white;
 }
